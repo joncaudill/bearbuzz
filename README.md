@@ -18,10 +18,7 @@ install it in developer mode. It currently only works for Microsoft Edge.
 **NOTE**: if it doesn't work at first, press a button on the controller, and 
 the extension should then see it.
 
-**NOTE2**: it's currently buggy and will not only work when it's supposed to,
-but every time you type in a coding window for some reason...so that's a TODO:
-
-**NOTE3**:I suggest you look at the source code to 
+**NOTE 2**:I suggest you look at the source code to 
 verify it's not doing anything weird, as you would anything you download 
 from a public repository.
 

@@ -1,9 +1,12 @@
 //add a listener to the body of the document to see if an animation has been added.
 //if so, that's likely the confetti or an onscreen toast message. so buzz the controller.
-document.body.addEventListener("animationstart", function(e) {
-    console.log("buzz buzz");
-    buzz_em();
-});
+test = document.getElementsByClassName("Vue-Toastification__container");
+for (let i = 0; i < test.length; i++) {
+    test[i].addEventListener("animationstart", function(e) {
+        console.log("buzz buzz");
+        buzz_em();
+    });
+}
 
 //function to buzz the controller if there is one connected
 buzz_em = function(){
